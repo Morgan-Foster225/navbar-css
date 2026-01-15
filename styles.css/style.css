@@ -1,0 +1,93 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* background and basic text */
+body {
+  background-color: #111111;
+  color: #fec0ca;
+  min-height: 100vh;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* Nav links */
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fec0ca;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #ff14d0;
+}
+
+/* Center buttons on page */
+button,
+p {
+  display: block;
+  margin: 30px auto;
+  padding: 30px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #ffd83d;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 0 #caa800;
+  width: 425px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button:hover,
+a:hover {
+  color: #fff;
+}
+
+.btn {
+  width: 340px;
+  border: none;
+}
+
+.image-container {
+  text-align: center; 
+  margin: 20px 0;
+}
+
+.pexels-image {
+  width: 400px;
+  height: auto;
+  max-width: 100%; 
+}
+
+
+@media (max-width: 600px) {
+  .pexels-image {
+    width: 90%; 
+  }
+}
